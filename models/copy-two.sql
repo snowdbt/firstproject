@@ -1,6 +1,7 @@
---select * from DBT.CONNECTFASTER.PERSONS;
---INSERT INTO CONNECTFASTER.Persons (PersonID, LastName,FirstName, Address, City) VALUES ('3', 'Tom B. Erichsen','single','Skagen 21', 'Stavanger');
-
+--select * from dbt.connectfaster.persons
+;
+-- INSERT INTO CONNECTFASTER.Persons (PersonID, LastName,FirstName, Address, City)
+-- VALUES ('3', 'Tom B. Erichsen','single','Skagen 21', 'Stavanger');
 INSERT INTO DBT.CONNECTFASTER.Persons_bkp select * from DBT.CONNECTFASTER.Persons limit 1; 
 
 -- Created backup table
@@ -11,3 +12,4 @@ INSERT INTO DBT.CONNECTFASTER.Persons_bkp select * from DBT.CONNECTFASTER.Person
     Address varchar(255),
     City varchar(255)
 );*/
+
