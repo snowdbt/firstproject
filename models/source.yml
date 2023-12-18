@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: firsproject
+    database: DBT
+    schema: CONNECTFASTER
+    tables:
+      - name: PERSONS_RAW
+      - name: PERSONS_STAGE

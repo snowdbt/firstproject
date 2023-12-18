@@ -1,4 +1,4 @@
-{{ config(materialized='table', transient=true) }}
+{{ config(materialized='view', transient=true) }}
 
 select *
 from persons_raw
