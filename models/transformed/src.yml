@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbt
+    database: DBT
+    schema: connectfaster
+    tables:
+      - name: Persons
+        description: personas table
